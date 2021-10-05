@@ -28,7 +28,7 @@ export default function App() {
     // página -> JSX
 
     return (
-        <><><><Nav className="navbar navbar-dark bg-dark justify-content-center" defaultActiveKey="#">
+        <><><><Nav className="navbar navbar-dark bgDark justify-content-center" defaultActiveKey="#">
             <Nav.Item>
                 <Nav.Link className="link-nav" href="#series">Séries</Nav.Link>
             </Nav.Item>
@@ -42,70 +42,70 @@ export default function App() {
             </NavDropdown>
         </Nav><br/>
 
-        <h3 className="">Filmes de ação</h3>
+        <h3 className="bgDark text-white p-3">Filmes de ação</h3>
 
         <Carousel variant="dark">
             <Carousel.Item>
                 <img className="d-block" src="https://via.placeholder.com/100x200.png?text=Filme 1" />
-                <Carousel.Caption class="text-dark">
+                <Carousel.Caption class="text-white">
                     <p>Filme 1</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="d-block" src="https://via.placeholder.com/100x200.png?text=Filme 2" />
-                <Carousel.Caption class="text-dark">
+                <Carousel.Caption class="text-white">
                     <p>Filme 2</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="d-block" src="https://via.placeholder.com/100x200.png?text=Filme 3" />
-                <Carousel.Caption class="text-dark">
+                <Carousel.Caption class="text-white">
                     <p>Filme 3</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel></><br/>
             
-        <h3 className="">Lançamentos</h3>
+        <h3 className="bgDark text-white p-3">Lançamentos</h3>
         
         <Carousel variant="dark">
             <Carousel.Item>
                 <img className="d-block" src="https://via.placeholder.com/100x200.png?text=Filme 1" />
-                <Carousel.Caption class="text-dark">
+                <Carousel.Caption class="text-white">
                     <p>Filme 1</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="d-block" src="https://via.placeholder.com/100x200.png?text=Filme 2" />
-                <Carousel.Caption class="text-dark">
+                <Carousel.Caption class="text-white">
                     <p>Filme 2</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="d-block" src="https://via.placeholder.com/100x200.png?text=Filme 3" />
-                <Carousel.Caption class="text-dark">
+                <Carousel.Caption class="text-white">
                     <p>Filme 3</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel></><br/>
         
-        <h3 className="">Destaques</h3>
+        <h3 className="bgDark text-white p-3">Destaques</h3>
         
         <Carousel variant="dark">
             <Carousel.Item>
                 <img className="d-block" src="https://via.placeholder.com/100x200.png?text=Filme 1" />
-                <Carousel.Caption class="text-dark">
+                <Carousel.Caption class="text-white">
                     <p>Filme 1</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="d-block" src="https://via.placeholder.com/100x200.png?text=Filme 2" />
-                <Carousel.Caption class="text-dark">
+                <Carousel.Caption class="text-white">
                     <p>Filme 2</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="d-block" src="https://via.placeholder.com/100x200.png?text=Filme 3" />
-                <Carousel.Caption class="text-dark">
+                <Carousel.Caption class="text-white">
                     <p>Filme 3</p>
                 </Carousel.Caption>
             </Carousel.Item>

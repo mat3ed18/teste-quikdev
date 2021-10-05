@@ -1,3 +1,7 @@
+body {
+    background-color: rgba(0,0,0);
+}
+
 .link-nav {
     color: white;
 }
@@ -11,7 +15,11 @@ img.d-block {
     margin: auto;
 }
 
-.carousel-item .text-dark {
+.carousel-item .text-white {
     border: 1px solid blue;
     text-align: center;
+}
+
+.bgDark {
+    background-color: rgba(0,0,0);
 }
