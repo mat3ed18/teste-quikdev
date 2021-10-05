@@ -5,3 +5,13 @@
 #opCategorias {
     color: white;
 }
+
+img.d-block {
+    border: 1px solid red;
+    margin: auto;
+}
+
+.carousel-item .text-dark {
+    border: 1px solid blue;
+    text-align: center;
+}
