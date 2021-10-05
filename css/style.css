@@ -23,3 +23,7 @@ img.d-block {
 .bgDark {
     background-color: rgba(0,0,0);
 }
+
+.btnOpen {
+    color: white;
+}
