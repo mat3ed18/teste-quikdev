@@ -82,6 +82,8 @@ export default function App() {
 
     useEffect(() => {
 
+        // Criando uma novo objeto axios que será usado nesse escopo
+
         const axios = require('axios');
 
         // Dropdown categorias
