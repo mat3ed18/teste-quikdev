@@ -32,7 +32,7 @@ export default function App() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-    // Modal do filme
+    // Função para abrir o MODAL do filme
 
     function openMovie(id) {
         handleShow();
