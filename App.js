@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Carousel, Card, CardGroup } from "react-bootstrap";
-import { Col, Container, Row } from "react-bootstrap";
-import { Modal, Nav, NavItem, NavDropdown } from "react-bootstrap";
-import axios, { AxiosInstance, AxiosPromise } from 'axios';
-import { StyleSheet } from "react-native";
+import { Carousel } from "react-bootstrap";
+import { Modal, Nav, NavDropdown } from "react-bootstrap";
+import axios from 'axios';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/style.css";
