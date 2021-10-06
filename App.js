@@ -11,6 +11,7 @@ import "./css/style.css";
 export default function App() {
 
     // useEffect -> document onload page
+    
     const [show, setShow] = useState(false);
 
     // Definindo as variáveis que serão utilizadas no projeto
