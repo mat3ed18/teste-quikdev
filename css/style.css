@@ -12,6 +12,7 @@ body {
 
 img.d-block {
     border: 1px solid red;
+    width: 70%;
     margin: auto;
 }
 
@@ -26,4 +27,37 @@ img.d-block {
 
 .btnOpen {
     color: white;
+}
+
+.openMovie {
+    border: 1px solid red;
+}
+
+.main_movie * {
+    text-align: center;
+}
+
+.btn-sm.btn-dark {
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.modal-header button {
+    border: 1px solid transparent;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+.modal-header .h4 {
+    text-align: center;
+    width: 100%;
+}
+
+.img_modal {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.descricao {
+    padding: 1%;
 }
