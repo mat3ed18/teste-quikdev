@@ -11,7 +11,6 @@ body {
 }
 
 img.d-block {
-    border: 1px solid red;
     width: 70%;
     margin: auto;
 }
@@ -30,7 +29,7 @@ img.d-block {
 }
 
 .openMovie {
-    border: 1px solid red;
+    
 }
 
 .main_movie * {
